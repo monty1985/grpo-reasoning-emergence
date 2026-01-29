@@ -50,7 +50,7 @@ python -c "import torch; print(f'PyTorch: {torch.__version__}')"
 python -c "import transformers; print(f'Transformers: {transformers.__version__}')"
 python -c "import trl; print(f'TRL: {trl.__version__}')"
 python -c "import reasoning_gym; print(f'reasoning-gym: installed')"
-python -c "print(f'CUDA available: {torch.cuda.is_available()}')"
+python -c "import torch; print(f'CUDA available: {torch.cuda.is_available()}')"
 python -c "import torch; print(f'GPU: {torch.cuda.get_device_name(0)}')"
 
 # Verify dataset
